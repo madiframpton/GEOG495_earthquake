@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Name": "Drumheller Fountain"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.30780839920044,
+            47.65380370154911
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Name": "Red Square"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.30956792831421,
+            47.65589227338519
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Name": "The Quad"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.30722904205322,
+            47.65730147015853
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Name": "Husky Stadium"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.30162858963013,
+            47.65024065090939
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Name": "Conibear Shellhouse"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.29973495006561,
+            47.65290031414818
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Name": "Burke Museum"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.3106300830841,
+            47.66060390025349
+          ]
+        }
+      }
+    ]
+  }
