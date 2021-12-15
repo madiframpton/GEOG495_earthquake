@@ -91,7 +91,7 @@
 
         async function geojsonFetch() {
 
-            let response, location, seattle, table;
+            let response, locations, seattle, table;
             response = await fetch('assets/locations.geojson');
             locations = await response.json();
             response = await fetch('assets/udistrict.geojson');
@@ -151,14 +151,14 @@
 
         geojsonFetch();
 
-        // let btn = document.getElementsByTagName("button")[0];
+        let btn = document.getElementsByTagName("button")[0];
 
-        // btn.addEventListener('click', sortTable);
+        btn.addEventListener('click', sortTable);
 
         // define the function to sort table
         function sortTable(e) {
             let table, rows, switching, i, x, y, shouldSwitch;
-            table = document.getElementsByTagId("table")[0];
+            table = document.getElementsByTagName("table")[0];
             switching = true;
             /*Make a loop that will continue until
             no switching has been done:*/
