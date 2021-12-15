@@ -21,8 +21,15 @@
         }
 
         #side-panel {
+            text-align: center;
             flex-basis: 500px;
             overflow-y: scroll;
+        }
+        
+        @media screen and (max-width: 1024px) {
+            #side-panel {
+                display: none;
+            }
         }
 
         #map {
@@ -30,14 +37,14 @@
         }
 
         button {
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
 
         table {
             border-collapse: collapse;
             border-spacing: 0;
             width: 100%;
-            border: 1px solid #ddd;
+            border: 2px solid #ddd;
         }
 
         th,
@@ -54,24 +61,21 @@
 
 <body>
     <main id="container">
+        <div id="map"></div>
         <div id="side-panel">
 
             <h2>List of Landmarks</h2>
+            <button>Sort Alphabetically</button>
 
-            <table id="table"> 
-
-    <p>Click the button to sort the table alphabetically, by Name:</p>
-    <p>
-        <button onclick="sortTable()">Sort</button>
-    </p>
+            <table>
                 <tr>
                     <th>Name</th>
-                    <th>Location</th>
+                    <th>name</th>
+                    <th>location</th>
                 </tr>
             </table>
 
         </div>
-        <div id="map"></div>
 
     </main>
     <script>
